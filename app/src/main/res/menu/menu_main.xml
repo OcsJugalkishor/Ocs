@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dharmshala.marulohar.MainActivity">
+    <item
+        android:id="@+id/action_change_language"
+        android:orderInCategory="100"
+        android:title=""
+        app:actionLayout="@layout/action_layout_language"
+        app:showAsAction="always"/>
+</menu>

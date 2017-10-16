@@ -1,0 +1,39 @@
+<resources>
+    <!--<string name="app_label">मारू लुहार</string>-->
+    <string name="app_label">मारू लुहार</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="drawer_open">खुला</string>
+    <string name="drawer_close">बंद करे</string>
+    <string name="no_network_connection_alert">इंटरनेट नहीं है !</string>
+    <string name="language_setting">भाषा</string>
+
+    <string name="nav_home">मुख पृष्ठ</string>
+    <string name="nav_invitation">आमंत्रण</string>
+    <string name="nav_god">श्री विश्वकर्मा भगवान</string>
+    <string name="nav_about">About</string>
+    <string name="nav_news">समाचार</string>
+    <string name="nav_gallery">Photo Gallery</string>
+    <string name="nav_contact_us">संपर्क करें</string>
+    <string name="nav_logout">लोग आउट</string>
+    <string name="change">परिवर्तन</string>
+    <string name="cancel">रद्द</string>
+    <string name="lang_dialog_title">अपनी भाषा चुनिए</string>
+
+    <!-- Language select dialog -->
+    <string-array name="language_select">
+        <item>अंग्रेज़ी</item>
+        <item>हिंदी</item>
+    </string-array>
+
+    <string name="facebook_app_id">173684026528727</string>
+    <string name="fb_login_protocol_scheme">fb173684026528727</string>
+
+    <!--Register View-->
+    <string name="first_name">पहला नाम</string>
+    <string name="last_name">अंतिम नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="address">पता</string>
+    <string name="password">पासवर्ड</string>
+    <string name="cnf_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="registration">रजिस्टर</string>
+</resources>

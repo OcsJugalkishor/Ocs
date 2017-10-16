@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bright_orange_56">#8fff6600</color>
+    <color name="bright_orange">#ff6600</color>
+    <color name="greyice_brown">#575757</color>
+    <color name="denim_blue">#3b5998</color>
+    <color name="gmail">#cf3f2f</color>
+    <color name="greyice_brown_alpha_50">#7A575757</color>
+    <color name="black_12">#1e000000</color>
+    <color name="white_three">#ececec</color>
+</resources>

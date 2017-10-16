@@ -1,0 +1,221 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context="com.dharmshala.marulohar.connection.fragment.RegisterFragment"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_normal"
+        tools:context="com.dharmshala.marulohar.connection.fragment.RegisterFragment"
+        tools:ignore="MissingPrefix">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etFirstName"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_large" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etName"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_large" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etEmail"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_large" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etAddress"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_large" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            app:passwordToggleEnabled="true"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etPassword"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_large" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edCnfPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etCnfPassword"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cnf_password"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_large" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivUserProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                android:scaleType="centerCrop" />
+
+            <Button
+                android:id="@+id/btnSelectPhoto"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:background="@drawable/circle_shape_login"
+                android:text="Choose Photo"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/spacing_normal" />
+
+            <Button
+                android:id="@+id/btnUploadPhoto"
+                fontPath="fonts/Raleway-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:background="@drawable/circle_shape_login"
+                android:text="Upload Photo"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/spacing_normal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            fontPath="fonts/Raleway-SemiBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:background="@drawable/circle_shape_login"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:minHeight="@dimen/spacing_huge"
+            android:paddingEnd="@dimen/spacing_medium"
+            android:paddingLeft="@dimen/spacing_medium"
+            android:paddingRight="@dimen/spacing_medium"
+            android:paddingStart="@dimen/spacing_medium"
+            android:text="@string/registration"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_extra_large" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/gmailSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:visibility="gone">
+
+        </com.google.android.gms.common.SignInButton>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/bright_orange_56"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_little"
+    android:paddingLeft="@dimen/spacing_normal"
+    android:paddingTop="@dimen/spacing_normal"
+    tools:ignore="MissingPrefix">
+
+    <com.dharmshala.marulohar.utils.RoundedImageView
+        android:id="@+id/ivUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_profile" />
+
+    <TextView
+        android:id="@+id/tv_firstName"
+        fontPath="fonts/Raleway-Bold.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        fontPath="fonts/Raleway-Bold.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_normal" />
+</LinearLayout>
